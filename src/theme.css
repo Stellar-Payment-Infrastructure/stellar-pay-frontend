@@ -2,6 +2,10 @@
  * Stellar Pay theme. Override any --sp-* variable on :root or a wrapper.
  * Dark mode: set data-sp-theme="dark" on <html> or any ancestor.
  * Colors meet WCAG 2.1 AA contrast (4.5:1 for text) in both themes.
+ *
+ * TODO(wave: frontend-3): mobile-first pass. Layouts are fluid and tested at
+ * desktop/tablet widths only; add breakpoints, 44px touch targets and mobile
+ * wallet deep links.
  */
 :root,
 [data-sp-theme='light'] {

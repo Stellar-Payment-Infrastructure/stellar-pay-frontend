@@ -16,3 +16,6 @@ export {
   type WalletStatus,
 } from './wallet/WalletProvider';
 export { formatAmount, parseAmount } from 'stellar-pay-sdk';
+
+// TODO(wave: frontend-1): export RecurringPaymentForm and its SDK stub here,
+// behind a feature flag that is off by default (see docs/RECURRING_DRAFT.md).

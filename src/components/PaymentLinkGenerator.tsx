@@ -12,7 +12,12 @@ export function checkoutUrl(checkoutBaseUrl: string, paymentId: string): string 
   return `${checkoutBaseUrl.replace(/\/+$/, '')}/pay/${encodeURIComponent(paymentId)}`;
 }
 
-/** Shows the `/pay/<id>` link with a copy button. */
+/**
+ * Shows the `/pay/<id>` link with a copy button.
+ *
+ * TODO(wave: frontend-2): link customization (branding: logo/colors, custom
+ * fields, a message, link options) with a live preview.
+ */
 export function PaymentLinkGenerator({ checkoutBaseUrl, paymentId, label = 'Payment link', className }: PaymentLinkGeneratorProps) {
   const id = useId();
   const url = checkoutUrl(checkoutBaseUrl, paymentId);
