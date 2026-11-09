@@ -52,7 +52,7 @@
     "@storybook/addon-a11y": "8.6.19",
     "@storybook/addon-essentials": "8.6.19",
     "@storybook/react": "8.6.19",
-    "@storybook/react-vite": "8.6.19",
+    "@storybook/react-vite": "10.6.6",
     "@testing-library/jest-dom": "6.10.0",
     "@testing-library/react": "16.3.3",
     "@testing-library/user-event": "14.6.8",
